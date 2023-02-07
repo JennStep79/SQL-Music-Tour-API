@@ -11,11 +11,11 @@ module.exports = {
       },
       stage_id: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.SMALLINT
       },
       event_id: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.SMALLINT
       },
     });
   },
